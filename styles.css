@@ -1,0 +1,78 @@
+
+.body{
+    display: flex;
+    flex-direction: column; 
+    flex: 1 1 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.Hero{
+    display: flex;
+    flex-direction: row;
+    background: #1f2937;
+    margin-top: 0px;
+    flex: 1 1 0%;
+    padding-bottom: 5%;
+    
+}
+.Logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 100px;
+    padding-right: 400px;
+    
+}
+.Links{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color:#e5e7eb;
+    position: absolute;
+  right: 100px;
+}
+.TopLinks{
+    padding-right: 20px;
+}
+.Top-Container{
+    display: flex;
+    flex-direction: row;
+    background: #1f2937;
+    
+}
+.Left-Vertical-Container{
+    display: flex;
+    flex-direction: column;
+    background: #1f2937;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 400px;
+    padding-bottom: 100px;
+}
+.Title{
+font-size: 48px;
+font-weight: extra-bold;
+color: #F9FAF8;
+padding-right: 100px;
+
+}
+.Image{
+    margin-left: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: darkgrey;
+}
+.Subtext{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.SignUpBtn{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
